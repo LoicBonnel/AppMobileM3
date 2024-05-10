@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background='#FFE4E1'>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="24sp"
+        app:cardElevation="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="367dp"
+                android:layout_height="512dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Veuillez saisir la date de la prestation"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+            </TextView>
+
+            <EditText
+                android:id="@+id/edit_dateP"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="60dp"
+                android:background="#f2f2f2"
+                android:hint="Date de la prestation"
+                android:padding="10dp">
+            </EditText>
+
+            <TextView
+                android:layout_width="367dp"
+                android:layout_height="512dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="110dp"
+                android:text="Veuillez saisir l'heure d'arrivée"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+        </TextView>
+
+            <EditText
+                android:id="@+id/edit_heureA"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="150dp"
+                android:background="#f2f2f2"
+                android:hint="Heure d'arrivée"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textnom"
+                android:layout_width="367dp"
+                android:layout_height="512dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="210dp"
+                android:text="Veuillez saisir l'heure de départ"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/edit_repas"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="350dp"
+                android:background="#f2f2f2"
+                android:hint="Nombre(s) de repa(s)"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textprenom"
+                android:layout_width="367dp"
+                android:layout_height="512dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="310dp"
+                android:text="Veuillez saisir le ou les repas"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textadresse"
+                android:layout_width="wrap_content"
+                android:layout_height="512dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="410dp"
+                android:text="Veuillez saisir les frais annexes éventuels"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edit_frais_eventuel"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="450dp"
+                android:background="#f2f2f2"
+                android:hint="Frais éventuels"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edit_heureD"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="250dp"
+                android:background="#f2f2f2"
+                android:hint="Heure de départ"
+                android:padding="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textadresse" />
+
+            <Button
+                android:id="@+id/btnmodif"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginStart="132dp"
+                android:layout_marginLeft="111dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginEnd="111dp"
+                android:layout_marginRight="111dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/black"
+                android:text="Valider les informations"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

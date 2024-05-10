@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Fripouille</string>
+
+    <!--Général-->
+    <string name="retour">Retour</string>
+    <string name="afficher">Afficher</string>
+
+    <!--Page Login-->
+    <string name="login_textlogin">Login</string>
+    <string name="login_editlogin">Entrez votre login</string>
+    <string name="login_textmdp">Mot de passe</string>
+    <string name="login_editmdp">Entrez votre mot de passe</string>
+    <string name="login_btnconnect">Connection</string>
+
+    <!--Page Menu-->
+    <string name="menu_btncompte">Votre Compte</string>
+    <string name="menu_btnanimaux">Vos Animaux</string>
+
+
+    <!--Page Compte-->
+    <string name="compte_titre">Votre Compte</string>
+    <string name="compte_nom">Nom :</string>
+    <string name="compte_prenom">Prénom :</string>
+    <string name="compte_adresse">Adresse :</string>
+    <string name="compte_telephone">Téléphone :</string>
+    <string name="compte_login">Login :</string>
+    <string name="compte_mdp">Mot de passe :</string>
+    <string name="compte_modif">Modifier :</string>
+
+    <!--Page Animaux-->
+    <string name="animaux_titre">Vos Animaux</string>
+    <string name="animaux_nom">Nom :</string>
+    <string name="animaux_race">Race :</string>
+    <string name="animaux_ajout">Ajouter</string>
+
+    <string-array name="spinner_race">
+        <item>Berger Allemand</item>
+        <item>Caniche</item>
+        <item>Siamois</item>
+        <item>Persan</item>
+    </string-array>
+
+
+
+</resources>
